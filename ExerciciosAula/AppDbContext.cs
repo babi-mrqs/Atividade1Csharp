@@ -13,7 +13,7 @@ namespace ExerciciosAula
             protected override void OnConfiguring(DbContextOptionsBuilder
     optionsBuilder)
             {
-                optionsBuilder.UseSqlite("Data Source=exercicios.db");
+                optionsBuilder.UseSqlite("Data Source=dbAtividade1");
             }
 
     }
